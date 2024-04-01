@@ -1,0 +1,13 @@
+# Project dependencies
+.cache
+node_modules
+# Build directory
+public
+# Other
+.DS_Store
+yarn-error.log
+
+.vercel
+
+*.env
+!example.env

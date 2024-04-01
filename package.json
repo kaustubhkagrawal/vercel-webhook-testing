@@ -1,0 +1,21 @@
+{
+  "name": "server-side-example-serverless-vercel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy:prod": "vercel deploy --prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kaustubh",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "@vercel/node": "^3.0.17",
+    "typescript": "^5.3.3",
+    "vercel": "^33.3.0"
+  },
+  "dependencies": {}
+}
